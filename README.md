@@ -25,6 +25,7 @@ We can do this by the following command
 We also need to copy the pretrained weights in the CLIP4Cir irectory.
 The parent directory has to follow the following structure in order for the scripts to work.
 
+<img width="260" alt="Screenshot 2024-12-12 at 8 38 36 PM" src="https://github.com/user-attachments/assets/17b47827-be67-4e12-a05a-9066c9378747" />
 
 
 ### Training and Validation
