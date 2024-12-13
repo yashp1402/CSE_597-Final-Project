@@ -1,0 +1,31 @@
+# CSE_597-Final_Project
+### Name - Yash Priyadarshi
+### PSU ID - yvp5218
+
+Paper Replication for **Composed Image Retrieval using Contrastive Learning and Task-oriented CLIP-based Features**. <br/>
+Paper Link - https://github.com/ABaldrati/CLIP4Cir
+
+### Start with cloning th emain repository
+git clone https://github.com/ABaldrati/CLIP4Cir
+
+### Install the following dependencies
+`pip install comet-ml` <br/>
+`pip install git+https://github.com/openai/CLIP.git`
+
+### Downloading the fashionIQ dataset
+Use below drive link to download the fashionIQ dataset. <br/>
+https://drive.google.com/file/d/18lDDTXGxiw6JFLf6b9j4kQIaZsyJOBQP/view?usp=sharing
+
+### Preprocessing
+Use the `resize_images.py` script to resize the images as per the paper requirements. <br/>
+For RN50 we need `224 x 224` and for RN50 we neeed `288 x 288`. 
+We can do this by the following command
+`python resize_images.py  --image_dir IMAGE_DIR --output_dir OUTPUT_DIR --image_size IMAGE_SIZE`
+
+We also need to copy the pretrained weights in the CLIP4Cir irectory.
+The parent directory has to follow the following structure in order for the scripts to work.
+
+
+
+### Training and Validation
+For this just follow the uploaded file Paper_Implementation.ipynb. Just make sure to place this file in the CLIP4Cir directory or set the same as the current work directory.
