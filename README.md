@@ -3,7 +3,7 @@
 ### PSU ID - yvp5218
 
 Paper Replication for **Composed Image Retrieval using Contrastive Learning and Task-oriented CLIP-based Features**. <br/>
-Paper Link - https://github.com/ABaldrati/CLIP4Cir
+Paper Link - https://arxiv.org/abs/2308.11485
 
 ### Start with cloning th emain repository
 git clone https://github.com/ABaldrati/CLIP4Cir
